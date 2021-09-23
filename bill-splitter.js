@@ -12,6 +12,7 @@ const owes2 = bill - person2;
 
 if (person1 === person2) {
     console.log ('nobody owes');
+    }    
     else if (person1 < bill) {
         console.log('person 1 owes $ ',owes1);
     }
